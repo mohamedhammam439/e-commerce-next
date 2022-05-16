@@ -1,0 +1,21 @@
+.foodswiper {
+  background-color: #f3f6fa;
+  height: 170px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+.foodswiper:hover{
+background-color: #cbdbf0
+;}
+.center {
+  justify-content: center;
+  text-align: center;
+}
+.foodTittle {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}

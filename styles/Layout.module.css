@@ -1,0 +1,54 @@
+.upfooter {
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.tittleside {
+  padding-left: 135px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.imgside {
+  background-image: url(../public/images/app-thumbnail.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footerbtn {
+  display: flex;
+}
+.leftbtn {
+  background-image: url(../public/images/app-store.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+.rightbtn {
+  background-image: url(../public/images/play-store.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.footerUl {
+  list-style: none;
+  color: gray;
+}
+.footerUlTittle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: black;
+}
+.brand {
+  font-size: 20px;
+  color: #02b290 !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

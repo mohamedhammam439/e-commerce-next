@@ -1,0 +1,55 @@
+.swiper {
+  height: 150px;
+  margin-top: 30px;
+}
+.slide1 {
+  background-color: #d9ecd2;
+  padding: 7px;
+}
+.slide2 {
+  background-color: #dbe5ef;
+  padding: 7px;
+}
+.slide3 {
+  background-color: #ffeed6;
+  padding: 7px;
+}
+.slide4 {
+  background-color: #efd8d4;
+  padding: 7px;
+}
+.pic1 {
+  background-image: url(../public/images/2.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pic2 {
+  background-image: url(../public/images/3.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pic3 {
+  background-image: url(../public/images/1.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pic4 {
+  background-image: url(../public/images/4.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.content {
+  padding: 10px;
+}
+.tittle {
+  font-size: 20px;
+}
+.paragraph {
+  font-size: 14px;
+  word-spacing: 1px;
+  color: gray;
+}

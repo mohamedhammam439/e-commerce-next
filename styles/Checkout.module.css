@@ -1,0 +1,31 @@
+.checkout_orders{
+    border: 1px solid #f1eded;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.product_item{
+    border-bottom: 1px solid #f1eded;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.product_count{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.center{
+    text-align: center;
+}
+.emptyCart{
+    color: red;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.mt_30{
+    margin-top: 80px;
+}
+.textOrder{
+    text-align: center;
+    margin: 80px;
+}

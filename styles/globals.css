@@ -1,16 +1,211 @@
-html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*{
   box-sizing: border-box;
+}
+.navbar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  min-height: 60px;
+  z-index: 999;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c3c7c6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #02b290;
+}
+/* swiper */
+.swiper-horizontal > .swiper-scrollbar {
+  visibility: hidden;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  background-color: white;
+  border-radius: 50%;
+  font-size: 25px !important;
+  padding: 11px 15px;
+  color: black;
+  z-index: 5555;
+  box-shadow: 1px 1px 1px 1px #e0dddd;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 25px !important;
+  padding: 11px 15px;
+  color: black;
+  z-index: 5555;
+  box-shadow: 1px 1px 1px 1px #e0dddd;
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  visibility: hidden;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+.brand {
+  font-size: 20px;
+  color: #02b290 !important;
+  font-weight: bold;
+  margin-right: 80px !important;
+}
+.custom-ml {
+  margin-left: 50px !important;
+}
+.main {
+  min-height: 70vh;
+  margin-top: 60px;
+}
+.btn-add {
+  /* position: absolute;
+  top: 69%;
+  right: 10px; */
+  background-color: #02b290;
+  color: #ffff;
+  /* border-radius: 50%;
+  height: 40px;
+  width: 40px; */
+  min-width: unset !important;
+}
+.btn-add:hover {
+  background-color: #02b290;
+}
+.css-fvc8ir-MuiBadge-badge {
+  background-color: #02b290;
+  color: white;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: black !important;
+}
+.back-link {
+  margin-bottom: 10px;
+  display: block;
+}
+.dec-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px 8px;
+  border: 1px solid;
+  border-color: rgb(231, 236, 240);
+}
+.item-number {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.inc-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px 8px;
+  border: 1px solid;
+  border-color: rgb(231, 236, 240);
+}
+.inc-button:hover,
+.dec-button:hover {
+  background-color: #02b290;
+  color: white;
+}
+.add-button {
+  background-color: inherit !important;
+  color: black !important;
+  border-color: #02b290 !important;
+  width: 100%;
+}
+.add-button:hover {
+  background-color: #02b290 !important;
+  border-color: #02b290 !important;
+  color: white !important;
+}
+.add-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(128, 216, 199, 0.5) !important;
+}
+.dele-btn {
+  padding: 3px !important;
+  background: red !important;
+  border-color: red !important;
+}
+.dele-icon{
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+.center {
+  justify-content: center;
+}
+.cartList {
+  min-width: 400px;
+  text-align: center;
+}
+.cartList .cartHead {
+  padding: 15px;
+  border-bottom: 1px solid;
+  border-color: rgb(231, 236, 240);
+}
+.productcart {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.productCount {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.cartContent {
+  height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.cartFooter {
+  padding: 15px;
+  border-top: 1px solid;
+  border-color: rgb(231, 236, 240);
+}
+.emptyCart h5 {
+  margin-top: 25%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between !important;
+  flex: 1;
+  padding: 2rem 16px;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
