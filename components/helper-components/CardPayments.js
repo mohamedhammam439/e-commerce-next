@@ -11,12 +11,7 @@ const CardPayment = () => {
   const { paymentMethod, setPaymentMethod } = useState("");
   const { state, dispatch } = useContext(Store);
 
-const saveButton = ()=>{
-  console.log('add')
-  dispatch({ type: "SAVE_PAYMENT_METHOD", payload: paymentMethod });
-    Cookies.set("paymentMethod", paymentMethod);
-  
-}
+
   
   return (
     <>
@@ -35,7 +30,6 @@ const saveButton = ()=>{
       <FormControlLabel value="Visa" control={<Radio />} label="Visa" />
     </RadioGroup>
   </FormControl>
-  <button onClick={e=> saveButton()}>save</button>
     </>
       
   );

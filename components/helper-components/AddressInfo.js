@@ -49,7 +49,6 @@ const AddressInfo = () => {
             <option value="3">Nasr City 3</option>
           </Form.Select>
         </Form.Group>
-        <button type="submit">submit</button>
       </Form>
     </>
   );

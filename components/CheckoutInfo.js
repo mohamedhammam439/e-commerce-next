@@ -20,8 +20,8 @@ const CheckoutInfo = () => {
   function getStepContent(step) {
     switch (step) {
       case 0:
-        return <h1>hello</h1>
-        // <MApInfo />;
+        return 
+        <MApInfo />;
       case 1:
         return <AddressInfo />;
           case 2:
